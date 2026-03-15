@@ -1,0 +1,350 @@
+{
+  "_meta": {
+    "lastUpdated": "2026-03-15T03:43:17.946Z",
+    "version": "v2026.3.13-beta.1",
+    "updateSource": "auto"
+  },
+  "stats": {
+    "githubStars": 313275,
+    "builtinSkills": 51,
+    "latestBugFixes": 200,
+    "archLayers": 4
+  },
+  "skills": [
+    {
+      "emoji": "🤖",
+      "name": "self-improving-agent",
+      "desc": "让 AI 代理具备人类式学习能力，自动捕获命令失败和操作异常，在用户纠错后智能更新代理行为模式，实现持续迭代优化。",
+      "install": "clawhub install self-improving-agent",
+      "category": "ai",
+      "categoryLabel": "AI 增强",
+      "downloads": "190k+",
+      "rank": 1
+    },
+    {
+      "emoji": "🔍",
+      "name": "find-skills",
+      "desc": "ClawHub 生态的「导航员」，支持自然语言提问，精准匹配用户所需技能，快速定位目标工具，降低生态使用门槛。",
+      "install": "clawhub install find-skills",
+      "category": "ai",
+      "categoryLabel": "AI 增强",
+      "downloads": "185k+",
+      "rank": 2
+    },
+    {
+      "emoji": "🌐",
+      "name": "agent-browser",
+      "desc": "面向 AI 代理的浏览器自动化 CLI，支持网页抓取、表单填写、截图等操作，是自动化工作流的核心技能。",
+      "install": "clawhub install agent-browser",
+      "category": "dev",
+      "categoryLabel": "开发工具",
+      "downloads": "162k+",
+      "rank": 3
+    },
+    {
+      "emoji": "📝",
+      "name": "summarize",
+      "desc": "一键总结 URL 或文件内容，支持长文档智能摘要、会议记录提炼、技术文档概括等多种场景。",
+      "install": "clawhub install summarize",
+      "category": "productivity",
+      "categoryLabel": "办公效率",
+      "downloads": "148k+",
+      "rank": 4
+    },
+    {
+      "emoji": "🔎",
+      "name": "tavily-web-search",
+      "desc": "通过 Tavily API 为 AI 提供面向代理优化的网页搜索能力，相比原生搜索具有更高的结构化输出质量。",
+      "install": "clawhub install tavily-web-search",
+      "category": "dev",
+      "categoryLabel": "开发工具",
+      "downloads": "139k+",
+      "rank": 5
+    },
+    {
+      "emoji": "🐙",
+      "name": "github",
+      "desc": "通过 gh CLI 操作 GitHub，支持创建 Issue、PR、查看仓库状态、提交代码等开发场景的全自动化。",
+      "install": "clawhub install github",
+      "category": "dev",
+      "categoryLabel": "开发工具",
+      "downloads": "127k+",
+      "rank": 6
+    },
+    {
+      "emoji": "📬",
+      "name": "gog-google-workspace",
+      "desc": "Google Workspace CLI，覆盖 Gmail 邮件管理、Google Docs 文档编辑、Calendar 日程等 Google 全家桶。",
+      "install": "clawhub install gog",
+      "category": "integration",
+      "categoryLabel": "平台集成",
+      "downloads": "115k+",
+      "rank": 7
+    },
+    {
+      "emoji": "📔",
+      "name": "notion",
+      "desc": "对接 Notion API，支持管理页面、数据库和区块，可自动将 AI 的输出结果写入 Notion 工作区。",
+      "install": "clawhub install notion",
+      "category": "integration",
+      "categoryLabel": "平台集成",
+      "downloads": "108k+",
+      "rank": 8
+    },
+    {
+      "emoji": "🎵",
+      "name": "sonos-cli",
+      "desc": "控制 Sonos 音箱的智能家居技能，可通过自然语言播放/暂停音乐、调节音量、切换歌单。",
+      "install": "clawhub install sonos-cli",
+      "category": "integration",
+      "categoryLabel": "平台集成",
+      "downloads": "87k+",
+      "rank": 9
+    },
+    {
+      "emoji": "🎭",
+      "name": "humanizer",
+      "desc": "将 AI 生成的文本改写得更自然、更像人类写作风格，有效降低 AI 检测率，适合内容创作场景。",
+      "install": "clawhub install humanizer",
+      "category": "media",
+      "categoryLabel": "内容创作",
+      "downloads": "95k+",
+      "rank": 10
+    },
+    {
+      "emoji": "📄",
+      "name": "nano-pdf",
+      "desc": "用自然语言编辑 PDF，支持内容提取、章节摘要、格式转换，无需打开专业软件即可处理 PDF 文档。",
+      "install": "clawhub install nano-pdf",
+      "category": "productivity",
+      "categoryLabel": "办公效率",
+      "downloads": "91k+",
+      "rank": 11
+    },
+    {
+      "emoji": "🗒️",
+      "name": "obsidian",
+      "desc": "操作 Obsidian Markdown 笔记库，支持创建、搜索、更新笔记，将 AI 输出自动同步到本地知识库。",
+      "install": "clawhub install obsidian",
+      "category": "productivity",
+      "categoryLabel": "办公效率",
+      "downloads": "83k+",
+      "rank": 12
+    },
+    {
+      "emoji": "🎨",
+      "name": "nano-banana-pro",
+      "desc": "图像生成与编辑技能，支持通过自然语言描述生成图片、图片风格迁移、背景替换等 AI 绘图能力。",
+      "install": "clawhub install nano-banana-pro",
+      "category": "media",
+      "categoryLabel": "内容创作",
+      "downloads": "76k+",
+      "rank": 13
+    },
+    {
+      "emoji": "🧠",
+      "name": "proactive-agent",
+      "desc": "将代理从被动执行升级为主动协作模式，可根据任务上下文主动发起子任务，实现真正的 AI 自主工作。",
+      "install": "clawhub install proactive-agent",
+      "category": "ai",
+      "categoryLabel": "AI 增强",
+      "downloads": "72k+",
+      "rank": 14
+    },
+    {
+      "emoji": "⛅",
+      "name": "weather",
+      "desc": "提供实时天气和多日天气预报信息，可集成到日程管理、旅行计划、农业监控等场景中。",
+      "install": "clawhub install weather",
+      "category": "integration",
+      "categoryLabel": "平台集成",
+      "downloads": "68k+",
+      "rank": 15
+    },
+    {
+      "emoji": "🚀",
+      "name": "capability-evolver",
+      "desc": "自适应能力进化技能，分析 AI 代理的历史表现，自动推荐适合当前工作场景的最优技能组合。",
+      "install": "clawhub install capability-evolver",
+      "category": "ai",
+      "categoryLabel": "AI 增强",
+      "downloads": "64k+",
+      "rank": 16
+    }
+  ],
+  "news": [
+    {
+      "id": "release-v2026.3.13-1",
+      "type": "hot",
+      "typeLabel": "🔥 版本更新",
+      "date": "2026-03-14",
+      "title": "v2026.3.13-1 发布：openclaw 2026.3.13",
+      "content": "This recovery release uses `v2026.3.13-1` because GitHub immutable releases do not allow reusing `v2026.3.13` after publication.  Important: - This release exists to recover the broken `v2026.3.13` tag/release path. - The corresponding npm version is still `2026.3.13`, not `2026.3.13-1`. - The…",
+      "highlights": [
+        "This release exists to recover the broken `v2026.3.13` tag/release path.",
+        "The corresponding npm version is still `2026.3.13`, not `2026.3.13-1`.",
+        "The `-1` suffix is for the Git tag and GitHub Release only.",
+        "fix(compaction): use full-session token count for post-compaction sanity check by @efe-arv in https://github.com/openclaw/openclaw/pull/28347",
+        "fix(telegram): thread media transport policy into SSRF by @obviyus in https://github.com/openclaw/openclaw/pull/44639"
+      ],
+      "featured": true
+    },
+    {
+      "id": "release-v2026.3.13-beta.1",
+      "type": "hot",
+      "typeLabel": "🔥 版本更新",
+      "date": "2026-03-14",
+      "title": "v2026.3.13-beta.1 发布：openclaw 2026.3.13-beta.1",
+      "content": "Pre-release for npm beta tag `v2026.3.13-beta.1`.  macOS assets are built with stable app version `2026.3.13` so they can be reused for the later non-beta release. `appcast.xml` is intentionally unchanged in this pre-release.   ### Changes  - Android/chat settings: redesign the chat settings sheet w…",
+      "highlights": [
+        "Android/chat settings: redesign the chat settings sheet with grouped device and media sections, refresh the Connect and Voice tabs, and tighten the chat composer/session header for a denser mobile layout. (#44894) Thanks @obviyus.",
+        "iOS/onboarding: add a first-run welcome pager before gateway setup, stop auto-opening the QR scanner, and show `/pair qr` instructions on the connect step. (#45054) Thanks @ngutman.",
+        "Browser/existing-session: add an official Chrome DevTools MCP attach mode for signed-in live Chrome sessions, with docs for `chrome://inspect/#remote-debugging` enablement and direct backlinks to Chrome’s own setup guides.",
+        "Browser/agents: add built-in `profile=\"user\"` for the logged-in host browser and `profile=\"chrome-relay\"` for the extension relay, so agent browser calls can prefer the real signed-in browser without the extra `browserSession` selector.",
+        "Browser/act automation: add batched actions, selector targeting, and delayed clicks for browser act requests with normalized batch dispatch. Thanks @vincentkoc."
+      ],
+      "featured": false
+    },
+    {
+      "id": "release-v2026.3.12",
+      "type": "hot",
+      "typeLabel": "🔥 版本更新",
+      "date": "2026-03-13",
+      "title": "v2026.3.12 发布：openclaw 2026.3.12",
+      "content": "### Changes  - Control UI/dashboard-v2: refresh the gateway dashboard with modular overview, chat, config, agent, and session views, plus a command palette, mobile bottom tabs, and richer chat tools like slash commands, search, export, and pinned messages. (#41503) Thanks @BunsDev. - OpenAI/GPT-5.4…",
+      "highlights": [
+        "Control UI/dashboard-v2: refresh the gateway dashboard with modular overview, chat, config, agent, and session views, plus a command palette, mobile bottom tabs, and richer chat tools like slash commands, search, export, and pinned messages. (#41503) Thanks @BunsDev.",
+        "OpenAI/GPT-5.4 fast mode: add configurable session-level fast toggles across `/fast`, TUI, Control UI, and ACP, with per-model config defaults and OpenAI/Codex request shaping.",
+        "Anthropic/Claude fast mode: map the shared `/fast` toggle and `params.fastMode` to direct Anthropic API-key `service_tier` requests, with live verification for both Anthropic and OpenAI fast-mode tiers.",
+        "Models/plugins: move Ollama, vLLM, and SGLang onto the provider-plugin architecture, with provider-owned onboarding, discovery, model-picker setup, and post-selection hooks so core provider wiring is more modular.",
+        "Docs/Kubernetes: Add a starter K8s install path with raw manifests, Kind setup, and deployment docs. Thanks @sallyom @dzianisv @egkristi"
+      ],
+      "featured": false
+    },
+    {
+      "id": "release-v2026.3.11",
+      "type": "hot",
+      "typeLabel": "🔥 版本更新",
+      "date": "2026-03-12",
+      "title": "v2026.3.11 发布：openclaw 2026.3.11",
+      "content": "### Security  - Gateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in `trusted-proxy` mode that could grant untrusted origins `operator.admin` access. (GHSA-5wcw-8…",
+      "highlights": [
+        "Gateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in `trusted-proxy` mode that could grant untrusted origins `operator.admin` access. (GHSA-5wcw-8jjv-m286)",
+        "OpenRouter/models: add temporary Hunter Alpha and Healer Alpha entries to the built-in catalog so OpenRouter users can try the new free stealth models during their roughly one-week availability window. (#43642) Thanks @ping-Toven.",
+        "iOS/Home canvas: add a bundled welcome screen with a live agent overview that refreshes on connect, reconnect, and foreground return, and move the compact connection pill off the top-left canvas overlay. (#42456) Thanks @ngutman.",
+        "iOS/Home canvas: replace floating controls with a docked toolbar, make the bundled home scaffold adapt to smaller phones, and open chat in the resolved main session instead of a synthetic `ios` session. (#42456) Thanks @ngutman.",
+        "macOS/chat UI: add a chat model picker, persist explicit thinking-level selections across relaunch, and harden provider-aware session model sync for the shared chat composer. (#42314) Thanks @ImLukeF."
+      ],
+      "featured": false
+    },
+    {
+      "id": "release-v2026.3.11-beta.1",
+      "type": "hot",
+      "typeLabel": "🔥 版本更新",
+      "date": "2026-03-12",
+      "title": "v2026.3.11-beta.1 发布：openclaw 2026.3.11-beta.1",
+      "content": "### Security  - Gateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in `trusted-proxy` mode that could grant untrusted origins `operator.admin` access. (GHSA-5wcw-8…",
+      "highlights": [
+        "Gateway/WebSocket: enforce browser origin validation for all browser-originated connections regardless of whether proxy headers are present, closing a cross-site WebSocket hijacking path in `trusted-proxy` mode that could grant untrusted origins `operator.admin` access. (GHSA-5wcw-8jjv-m286)",
+        "OpenRouter/models: add temporary Hunter Alpha and Healer Alpha entries to the built-in catalog so OpenRouter users can try the new free stealth models during their roughly one-week availability window. (#43642) Thanks @ping-Toven.",
+        "iOS/Home canvas: add a bundled welcome screen with a live agent overview that refreshes on connect, reconnect, and foreground return, and move the compact connection pill off the top-left canvas overlay. (#42456) Thanks @ngutman.",
+        "iOS/Home canvas: replace floating controls with a docked toolbar, make the bundled home scaffold adapt to smaller phones, and open chat in the resolved main session instead of a synthetic `ios` session. (#42456) Thanks @ngutman.",
+        "macOS/chat UI: add a chat model picker, persist explicit thinking-level selections across relaunch, and harden provider-aware session model sync for the shared chat composer. (#42314) Thanks @ImLukeF."
+      ],
+      "featured": false
+    },
+    {
+      "id": "release-v2026.3.8",
+      "type": "hot",
+      "typeLabel": "🔥 版本更新",
+      "date": "2026-03-09",
+      "title": "v2026.3.8 发布：openclaw 2026.3.8",
+      "content": "Mac assets on this release reuse the beta artifact line from v2026.3.8-beta.1.   ### Changes  - CLI/backup: add `openclaw backup create` and `openclaw backup verify` for local state archives, including `--only-config`, `--no-include-workspace`, manifest/payload validation, and backup guidance in des…",
+      "highlights": [
+        "CLI/backup: add `openclaw backup create` and `openclaw backup verify` for local state archives, including `--only-config`, `--no-include-workspace`, manifest/payload validation, and backup guidance in destructive flows. (#40163) thanks @shichangs.",
+        "macOS/onboarding: add a remote gateway token field for remote mode, preserve existing non-plaintext `gateway.remote.token` config values until explicitly replaced, and warn when the loaded token shape cannot be used directly from the macOS app. (#40187, supersedes #34614) Thanks @cgdusek.",
+        "Talk mode: add top-level `talk.silenceTimeoutMs` config so Talk waits a configurable amount of silence before auto-sending the current transcript, while keeping each platform's existing default pause window when unset. (#39607) Thanks @danodoesdesign. Fixes #17147.",
+        "TUI: infer the active agent from the current workspace when launched inside a configured agent workspace, while preserving explicit `agent:` session targets. (#39591) thanks @arceus77-7.",
+        "Tools/Brave web search: add opt-in `tools.web.search.brave.mode: \"llm-context\"` so `web_search` can call Brave's LLM Context endpoint and return extracted grounding snippets with source metadata, plus config/docs/test coverage. (#33383) Thanks @thirumaleshp."
+      ],
+      "featured": false
+    }
+  ],
+  "timeline": [
+    {
+      "version": "v2026.3.13-beta.1",
+      "date": "2026-03-14",
+      "desc": "openclaw 2026.3.13-beta.1",
+      "active": true
+    },
+    {
+      "version": "v2026.3.13-1",
+      "date": "2026-03-14",
+      "desc": "openclaw 2026.3.13",
+      "active": false
+    },
+    {
+      "version": "v2026.3.12",
+      "date": "2026-03-13",
+      "desc": "openclaw 2026.3.12",
+      "active": false
+    },
+    {
+      "version": "v2026.3.11-beta.1",
+      "date": "2026-03-12",
+      "desc": "openclaw 2026.3.11-beta.1",
+      "active": false
+    },
+    {
+      "version": "v2026.3.11",
+      "date": "2026-03-12",
+      "desc": "openclaw 2026.3.11",
+      "active": false
+    },
+    {
+      "version": "v2026.3.8-beta.1",
+      "date": "2026-03-09",
+      "desc": "openclaw 2026.3.8-beta.1",
+      "active": false
+    },
+    {
+      "version": "v2026.3.8",
+      "date": "2026-03-08",
+      "desc": "架构重塑，ContextEngine 正式发布",
+      "active": false
+    },
+    {
+      "version": "v2026.3.7",
+      "date": "2026-03-08",
+      "desc": "openclaw 2026.3.7",
+      "active": false
+    }
+  ],
+  "topSkillsRank": [
+    {
+      "rank": "01",
+      "name": "self-improving-agent",
+      "stat": "190k+ ↓"
+    },
+    {
+      "rank": "02",
+      "name": "find-skills",
+      "stat": "185k+ ↓"
+    },
+    {
+      "rank": "03",
+      "name": "agent-browser",
+      "stat": "162k+ ↓"
+    },
+    {
+      "rank": "04",
+      "name": "summarize",
+      "stat": "148k+ ↓"
+    },
+    {
+      "rank": "05",
+      "name": "tavily-web-search",
+      "stat": "139k+ ↓"
+    }
+  ]
+}
